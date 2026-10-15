@@ -129,3 +129,18 @@ with tab3:
 
     st.divider()
     st.header("🏥 Public Clinics & Mental Health Centers (Bengaluru)")
+    st.markdown("Affordable government healthcare resources for diagnostic testing and therapy.")
+    
+    st.markdown("""
+    *   **Vani Vilas Women and Children Hospital**
+        *   *Specialty:* Obstetrics, Gynecology, Pediatrics
+        *   *Location:* K.R. Road, Fort, Bengaluru
+        *   *Phone:* 080-26703224
+    *   **NIMHANS (National Institute of Mental Health and Neurosciences)**
+        *   *Specialty:* Psychiatry, Counseling, Neurology
+        *   *Location:* Hosur Road, Bengaluru
+        *   *Phone:* 080-46110007 (Helpline)
+    *   **Bowring and Lady Curzon Hospital**
+        *   *Specialty:* General Medicine, Gynecology
+        *   *Location:* Shivajinagar, Bengaluru
+    """)
