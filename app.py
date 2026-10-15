@@ -17,7 +17,7 @@ st.markdown("""
 API_KEY = st.secrets.get("GEMINI_API_KEY", "")
 if API_KEY:
     genai.configure(api_key=API_KEY)
-    model = genai.GenerativeModel('gemini-pro')
+    model = genai.GenerativeModel('gemini-3.6-flash')
 else:
     st.error("⚠️ Please set your GEMINI_API_KEY in the Streamlit secrets dashboard.")
 
